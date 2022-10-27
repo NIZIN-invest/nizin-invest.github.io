@@ -4,7 +4,7 @@ feature_text: |
   ## NiZiN Investimentos
   NiZiN Investimento é uma iniciativa onde profissionais de diversas formações se unem para analisar e gerar informação para o mercado de investimento.
 image:
-  feature: "https://picsum.photos/1300/400?image=989"
+  feature: "financas_investimentos/Header NiZiN Investimentos.png"
 ---
 
 A iniciativa NiZiN Investimentos não é um projeto ou uma empresa, mas uma associação de profissionais que somam seus conhecimentos na busca de coletar e analisar dados usando metodológias de Ciências de Dados modernas e conceituadas no mercado.
