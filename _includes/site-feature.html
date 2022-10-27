@@ -5,7 +5,8 @@
   {% assign feature_text = collectiondata.feature_text %}
   {% assign feature_image = collectiondata.feature_image %}
 {% endif %}
-
+{% unless feature_image contains 'https://' or feature_image contains 'http://' %}
+{% assign feature_image = site.baseurl | append: 'assets/images/' |append: feature_image
 {% if feature_text or feature_image %}
   <div class="feature"{% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
     <div class="container  typeset">
