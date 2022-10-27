@@ -1,3 +1,6 @@
 [submodule "_posts"]
 	path = _posts
 	url = https://github.com/NIZIN-invest/_posts.git
+[submodule "images"]
+	path = assets/images
+	url = git@github.com:NIZIN-invest/images.git
