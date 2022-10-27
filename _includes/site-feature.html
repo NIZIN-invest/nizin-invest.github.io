@@ -1,5 +1,5 @@
 {% assign feature_text = page.feature_text %}
-{% assign feature_image = page.image_feature %}
+{% assign feature_image = page.image.feature %}
 {% if page.collectionpage %}
   {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
   {% assign feature_text = collectiondata.feature_text %}
