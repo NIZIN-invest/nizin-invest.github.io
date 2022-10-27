@@ -66,7 +66,7 @@ collections:
     description: "Nossas Postagens, Artigos e Estudos" # The post list page content
     feature_text: |
       Bem vindo ao nosso Blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "assets/images/financas_investimentos/Header NiZiN Investimentos.png"
 
 # 6. Jekyll collections settings
 defaults:
@@ -92,7 +92,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: pt-BR # Set the site language
 title: "NiZiN Investimentos" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo@144px.png" # Site logo, also used in jekyll-seo-tag
 description: "NiZiN Investimentos é uma iniciativa que reune desenvolvedores e analistas para produzir código para ciência de dados com foco em investimentos e finanças." # Site description and default description, also used in jekyll-seo-tag
 url: "https://nizin-invest.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
