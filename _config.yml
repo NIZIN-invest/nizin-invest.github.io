@@ -99,7 +99,7 @@ url: "https://nizin-invest.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: ""
 repo: "https://github.com/nizin-invest"
 email: "nizin-invest@gmail.com"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+disqus: "nizin-investimentos" # Blog post comments, uncomment the option and set the site ID from your Disqus account
 # date_format: "%-d %B %Y" # Blog post date formatting using placeholder formatting
 # google_analytics: ""
 # google_analytics_anonymize_ip: ""
