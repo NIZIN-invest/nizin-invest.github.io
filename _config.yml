@@ -67,7 +67,7 @@ collections:
     feature_text: |
       Bem vindo ao nosso Blog
     image:
-      feature: "assets/images/financas_investimentos/Header NiZiN Investimentos.png"
+      feature: "assets/images/financas_investimentos/Header_NiZiN_Investimentos.png"
 
 # 6. Jekyll collections settings
 defaults:
