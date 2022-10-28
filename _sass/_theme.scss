@@ -55,6 +55,7 @@ body {
     max-width: 60%;
     @include flex-direction(column);
     @include justify-content(center);
+    rgba(200,200,200,0.4)
   }
 }
 
