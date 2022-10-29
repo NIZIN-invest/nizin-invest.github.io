@@ -81,7 +81,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
+      layout: article  # Set the default layout for posts
   -
     scope:
       path: ""
