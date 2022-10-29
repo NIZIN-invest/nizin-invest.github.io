@@ -40,6 +40,9 @@
 
     {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
 
+    {% if page.math %}{% include post-mathjax.html %}{% endif %}
+  
+
     {% include site-fonts.html %}
 
     {% include site-before-start.html %}
