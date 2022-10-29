@@ -211,7 +211,7 @@ a {
 
   // Tables.
   table {
-    @include sassline(eta, $headingtype, 2, 0, all);
+    @include sassline(eta, $headingtype, 1.5, 0, all);
 
     font-family: unquote(map-get($headingtype, font-family));
     font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
@@ -222,7 +222,7 @@ a {
     thead {
 
       th {
-        @include sassline(zeta, $headingtype, 2, 0, all);
+        @include sassline(zeta, $headingtype, 1.5, 0, all);
         padding-bottom: 1px;
       }
     }
