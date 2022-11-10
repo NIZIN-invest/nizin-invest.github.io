@@ -1,7 +1,14 @@
+{% if page.math_separator %}
+{% assign start = page.math.start %}
+{% assign end = page.math.end %}
+{% else %}
+{% assign start = site.math.start %}
+{% assign end = site.math.end %}
+{% endif %}
       <script >
       MathJax = {
          tex: {
-            inlineMath: [['{{site.math.inline.start}}', '{{site.math.inline.end}}'], ['\\(', '\\)']]
+            inlineMath: [['{{start}}', '{{end}}'], ['\\(', '\\)']]
          }
       };
       </script>
