@@ -1,9 +1,9 @@
-{% if page.math_separator %}
-{% assign start = page.math.start %}
-{% assign end = page.math.end %}
+{% if page.math %}
+{% assign start = page.math.inline.start %}
+{% assign end = page.math.inline.end %}
 {% else %}
-{% assign start = site.math.start %}
-{% assign end = site.math.end %}
+{% assign start = site.math.inline.start %}
+{% assign end = site.math.inline.end %}
 {% endif %}
       <script >
       MathJax = {
@@ -14,4 +14,4 @@
       </script>
 
       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+      <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
